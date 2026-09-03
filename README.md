@@ -6,3 +6,5 @@ Nosso projeto é focado na produção de um jogo que busca promover a conscienti
 Henrique Gabriel Sousa Lima
 
 Alana Vitória Vasconcelos Guimarães
+
+wagner rosa da rocha
