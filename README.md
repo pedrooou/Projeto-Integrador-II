@@ -10,3 +10,9 @@ Henrique Gabriel Sousa Lima
 Alana Vitória Vasconcelos Guimarães
 
 Wagner Rosa da Rocha
+
+Maria Clara Souza de Almeida
+
+Pedro Farias da Rocha
+
+Estevão Gabriel Vale da Silva
