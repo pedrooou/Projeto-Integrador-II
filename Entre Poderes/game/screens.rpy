@@ -237,24 +237,50 @@ style choice_button_text is default:
 
 screen quick_menu():
 
-    ## Certifique-se de que isso apareça na parte superior de outras telas.
     zorder 100
 
     if quick_menu:
 
-        hbox:
-            style_prefix "quick"
-            style "quick_menu"
+        vbox:
+            style_prefix "lateral"
 
-            textbutton _("Voltar") action Rollback()
-            textbutton _("Histórico") action ShowMenu('history')
-            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
-            textbutton _("Salvar") action ShowMenu('save')
-            textbutton _("Q.Salvar") action QuickSave()
-            textbutton _("Q. Carga") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            xalign 1.0
+            yalign 0.5
+            xoffset -16
 
+            spacing 12
+
+            textbutton _("Voltar"):
+                action Rollback()
+
+            textbutton _("Auto"):
+                action Preference("auto-forward", "toggle")
+
+            textbutton _("Salvar"):
+                action ShowMenu("save")
+
+
+style lateral_button is default:
+    xsize 160
+    yminimum 64
+
+    padding (16, 12)
+
+    background "#17212DDD"
+    hover_background "#30465CEE"
+    selected_background "#365D80EE"
+
+
+style lateral_button_text is default:
+    size 26
+
+    color "#FFFFFF"
+    hover_color "#FFFFFF"
+    selected_color "#FFD580"
+    insensitive_color "#888888"
+
+    xalign 0.5
+    text_align 0.5
 
 ## Esse código garante que a tela quick_menu seja exibida no jogo, sempre que o
 ## jogador não tiver ocultado explicitamente a interface.
