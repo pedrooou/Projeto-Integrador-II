@@ -1,0 +1,63 @@
+{
+  "id": "midnight",
+  "name": "Midnight",
+  "motif": "moon",
+  "shape": "notch",
+  "colors": {
+    "bg": "#0e1a2b",
+    "bg2": "#1b2d4a",
+    "panel": "#13223a",
+    "panel_alpha": 0.94,
+    "edge": "#c9a45c",
+    "text": "#ece6d6",
+    "muted": "#a3adbf",
+    "accent": "#d8b46a",
+    "accent_text": "#13223a",
+    "name_bg": "#d8b46a",
+    "name_text": "#13223a",
+    "choice": "#162845",
+    "choice_text": "#ece6d6",
+    "insensitive": "#6c7891",
+    "extra": "#efe3c2"
+  },
+  "fonts": {
+    "text": "SourceSerif4-Regular.ttf",
+    "name": "SourceSerif4-Semibold.ttf",
+    "ui": "SourceSerif4-Semibold.ttf",
+    "title": "SourceSerif4-Semibold.ttf"
+  },
+  "borders": {
+    "textbox": [
+      50,
+      46,
+      50,
+      46
+    ],
+    "namebox": [
+      26,
+      14,
+      26,
+      14
+    ],
+    "button": [
+      44,
+      18,
+      24,
+      18
+    ],
+    "choice": [
+      52,
+      22,
+      52,
+      26
+    ]
+  },
+  "tile": {},
+  "generator": "make_theme.py 1.0",
+  "contrast": {
+    "text_on_panel": 12.79,
+    "muted_on_panel": 7.05,
+    "name_text_on_name_bg": 8.09,
+    "accent_text_on_accent": 8.09
+  }
+}

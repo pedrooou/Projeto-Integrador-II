@@ -95,27 +95,6 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
-
-    window:
-        id "window"
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
-
-        text what id "what"
-
-
-    ## Se houver uma imagem lateral, exiba-a acima do texto. Não exiba na
-    ## variante do telefone - não há espaço.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
-
-
 ## Disponibilize a caixa de nome para estilização por meio do objeto Character.
 init python:
     config.character_id_prefixes.append('namebox')
@@ -204,14 +183,6 @@ style input:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
-screen choice(items):
-    style_prefix "choice"
-
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
-
-
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
@@ -259,25 +230,29 @@ screen quick_menu():
             textbutton _("Salvar"):
                 action ShowMenu("save")
 
+            textbutton _("Menu"):
+                action ShowMenu()
+
 
 style lateral_button is default:
-    xsize 160
-    yminimum 64
+    xsize tgl.px(260)
+    yminimum tgl.px(70)
 
-    padding (16, 12)
+    padding (tgl.px(30), tgl.px(12), tgl.px(30), tgl.px(14))
 
-    background "#17212DDD"
-    hover_background "#30465CEE"
-    selected_background "#365D80EE"
+    background tgl.frame("choice_idle", 52, 22, 52, 26)
+    hover_background tgl.frame("choice_hover", 52, 22, 52, 26)
+    selected_background tgl.frame("choice_idle", 52, 22, 52, 26)
 
 
 style lateral_button_text is default:
-    size 26
+    font tgl.SERIF_BOLD
+    size tgl.px(30)
 
-    color "#FFFFFF"
-    hover_color "#FFFFFF"
-    selected_color "#FFD580"
-    insensitive_color "#888888"
+    color tgl.INK
+    hover_color tgl.BRASS
+    selected_color tgl.INK
+    insensitive_color tgl.INK
 
     xalign 0.5
     text_align 0.5
