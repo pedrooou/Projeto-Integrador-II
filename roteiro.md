@@ -50,11 +50,11 @@
 
 **Joaquim:** Eu queria te ensinar um pouco sobre o trabalho que eu exercia uns anos atrás. Quem sabe você goste e siga também.
 
-**[nome]:** O senhor parece bem animado. E eu quero conhecer o lugar de tantas histórias suas!
+**[nome]:** O senhor me chamou pra passear ou já tá fazendo campanha?
 
-**Joaquim:** Pois então vamos logo.
+**Joaquim:** Pra passear. Se fosse campanha, eu já tinha servido o café.
 
-**[nome]:** Tudo bem, vô. Bora. Só deixa eu terminar o café.
+**[nome]:** Então senta aí, candidato. Eu ainda nem peguei o pão.
 
 **Narração:** Ele já está de pé. Quando percebe que eu ainda nem peguei o pão, senta de novo.
 
@@ -185,7 +185,7 @@
 
 **Joaquim:** Pois é, [nome]. Isso é parte do dia a dia deles. Eu reclamava bastante do tamanho das reuniões... Até ser eu quem não queria largar o microfone.
 
-**[nome]:** Isso eu consigo imaginar.
+**[nome]:** Se fosse o laboratório da minha escola, eu ainda ia querer saber quando os computadores chegam.
 
 [Os dois saem da sala e voltam a conversar em volume normal.]
 
@@ -195,7 +195,7 @@
 
 ## Cena 4 — Quem escolhe quem julga?
 
-**Cenário:** galeria do plenário do Senado, inicialmente sem sessão em andamento. Na saída, os personagens ouvem uma transmissão de sabatina. A transmissão pode ser apresentada somente por texto, com a identificação “CCJ — Sabatina”.
+**Cenário:** galeria do plenário do Senado, inicialmente sem sessão em andamento. Na saída, os personagens ouvem uma transmissão de sabatina. Durante as duas falas da transmissão, exibir a faixa “Sabatina na CCJ” e identificar os falantes na caixa de diálogo. Retirar a faixa antes da pergunta do protagonista sobre uma entrevista de emprego.
 
 **[nome]:** Aqui é menor, né?
 
@@ -220,6 +220,8 @@
 **Joaquim:** Nessa escolha, não. Isso cabe ao Senado. Já um projeto de lei ordinária federal passa pelas duas Casas. Se a segunda muda o texto, ele volta à primeira para analisar as alterações.
 
 ### E2 — Escolha educativa
+
+**Exibir antes das alternativas:** “Desafio da visita”.
 
 **Como se divide a escolha de um ministro do STF?**
 
@@ -319,9 +321,11 @@
 
 **Joaquim:** É uma notícia sobre os laboratórios. Um colega me mandou depois daquela reunião. Olha aqui.
 
-**Informe:** Presidência sanciona parte de projeto sobre relatórios de execução do programa de laboratórios e veta o artigo que exigia atualização semanal.
+**Manchete:** Presidente veta atualização semanal dos relatórios
 
-**[nome]:** Já fizeram uma lei por causa da reunião de hoje?
+**Resumo:** O veto atingiu o artigo sobre a frequência das atualizações. Os demais trechos foram sancionados.
+
+**[nome]:** Pera, é sobre aqueles computadores? Esse projeto começou por causa da reunião de hoje?
 
 **Joaquim:** Não. Esse projeto tramita há meses. A Câmara aprovou e o Senado aprovou o mesmo texto na semana passada. A reunião de hoje cobrou as entregas do programa, que já existia.
 
@@ -329,7 +333,7 @@
 
 **Joaquim:** Quando recebe o projeto aprovado, o presidente pode concordar, que é sancionar, ou vetar tudo ou uma parte, se considerar inconstitucional ou contrário ao interesse público. Tem de apresentar os motivos.
 
-**Informe:** O veto atingiu o artigo inteiro. A Presidência argumenta que exigir atualização toda semana é inviável com a estrutura atual. Os demais dispositivos foram sancionados e publicados. O veto será examinado pelo Congresso.
+**Informe:** O veto atingiu o artigo sobre a frequência das atualizações. Os demais trechos foram sancionados.
 
 **[nome]:** E quem tá esperando os computadores vai continuar sem saber de nada?
 
@@ -340,6 +344,8 @@
 **Joaquim:** É uma cobrança razoável. Mas vamos separar sua opinião sobre o prazo da regra sobre quem decide o veto. Os deputados que queriam manter aquele artigo ainda podem fazer alguma coisa?
 
 ### E3 — Escolha educativa
+
+**Exibir antes das alternativas:** “Desafio da visita”.
 
 **Qual caminho permite decidir sobre esse veto?**
 
@@ -450,6 +456,8 @@
 **Ana:** Nesse caso, qual seria a tarefa do tribunal?
 
 ### E4 — Escolha educativa
+
+**Exibir antes das alternativas:** “Desafio da visita”.
 
 **O que cabe ao STF na ação descrita?**
 
