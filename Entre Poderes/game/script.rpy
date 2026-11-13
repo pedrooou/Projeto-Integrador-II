@@ -146,7 +146,6 @@ label start:
     nome_jogador "E os deputados também votam nesse nome?"
     joaquim "Nessa escolha, não. Isso cabe ao Senado. Já um projeto de lei ordinária federal passa pelas duas Casas. Se a segunda muda o texto, ele volta à primeira para analisar as alterações."
 
-    centered "Desafio da visita"
     menu:
         "Como se divide a escolha de um ministro do STF?"
         "O presidente indica; o Senado aprova; o presidente nomeia.":
@@ -201,7 +200,6 @@ label start:
     nome_jogador "Eu discordaria. Se o prazo da entrega mudou, quem tá esperando precisa saber."
     joaquim "É uma cobrança razoável. Mas vamos separar sua opinião sobre o prazo da regra sobre quem decide o veto. Os deputados que queriam manter aquele artigo ainda podem fazer alguma coisa?"
 
-    centered "Desafio da visita"
     menu:
         "Qual caminho permite decidir sobre esse veto?"
         "O STF precisa decidir se a atualização semanal é conveniente.":
@@ -257,7 +255,6 @@ label start:
     ana "Ele pode analisar o que foi questionado dentro da sua competência. Mas não ganha autorização para reescrever qualquer política só porque os ministros preferem outra."
     ana "Nesse caso, qual seria a tarefa do tribunal?"
 
-    centered "Desafio da visita"
     menu:
         "O que cabe ao STF na ação descrita?"
         "Escolher novos valores para o auxílio conforme achar mais adequado.":

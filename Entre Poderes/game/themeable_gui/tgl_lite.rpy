@@ -175,7 +175,7 @@ screen main_menu():
             textbutton _("Sobre") action ShowMenu("about") style "tgl_nav_button" text_style "tgl_nav_text"
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Ajuda") action ShowMenu("help") style "tgl_nav_button" text_style "tgl_nav_text"
-            if renpy.variant("pc"):
+            if renpy.variant("pc") or renpy.variant("web"):
                 textbutton _("Sair") action Quit(confirm=False) style "tgl_nav_button" text_style "tgl_nav_text"
 
 style tgl_main_frame:

@@ -224,7 +224,7 @@ screen quick_menu():
             textbutton _("Voltar"):
                 action Rollback()
 
-            textbutton _("Auto"):
+            textbutton _("Automático"):
                 action Preference("auto-forward", "toggle")
 
             textbutton _("Salvar"):
@@ -242,7 +242,7 @@ style lateral_button is default:
 
     background tgl.frame("choice_idle", 52, 22, 52, 26)
     hover_background tgl.frame("choice_hover", 52, 22, 52, 26)
-    selected_background tgl.frame("choice_idle", 52, 22, 52, 26)
+    selected_background tgl.frame("choice_hover", 52, 22, 52, 26)
 
 
 style lateral_button_text is default:
@@ -251,7 +251,7 @@ style lateral_button_text is default:
 
     color tgl.INK
     hover_color tgl.BRASS
-    selected_color tgl.INK
+    selected_color tgl.BRASS
     insensitive_color tgl.INK
 
     xalign 0.5
@@ -327,10 +327,8 @@ screen navigation():
             ## A ajuda não é necessária ou relevante para dispositivos móveis.
             textbutton _("Ajuda") action ShowMenu("help")
 
-        if renpy.variant("pc"):
+        if renpy.variant("pc") or renpy.variant("web"):
 
-            ## O botão Sair é proibido no iOS e desnecessário no Android e na
-            ## Web.
             textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
@@ -1530,14 +1528,27 @@ screen quick_menu():
 
     if quick_menu:
 
-        hbox:
-            style "quick_menu"
-            style_prefix "quick"
+        vbox:
+            style_prefix "lateral"
 
-            textbutton _("Voltar") action Rollback()
-            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
-            textbutton _("Menu") action ShowMenu()
+            xalign 1.0
+            yalign 0.5
+            xoffset -16
+
+            spacing 12
+
+            textbutton _("Voltar"):
+                action Rollback()
+
+            textbutton _("Pular"):
+                action Skip()
+                alternate Skip(fast=True, confirm=True)
+
+            textbutton _("Automotivo"):
+                action Preference("auto-forward", "toggle")
+
+            textbutton _("Menu"):
+                action ShowMenu()
 
 
 style window:
