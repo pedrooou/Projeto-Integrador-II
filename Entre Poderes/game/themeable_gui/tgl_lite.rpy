@@ -15,6 +15,7 @@ init python in tgl:
     INK, MUTED, BRASS, NAVY = "#F4F1EA", "#BFCBC2", "#B6C9A8", "#435548"
     SERIF = ROOT + "fonts/SourceSerif4-Regular.ttf"
     SERIF_BOLD = ROOT + "fonts/SourceSerif4-Semibold.ttf"
+    CINZEL_BOLD = ROOT + "fonts/Cinzel-Bold.ttf"
 
     for _p in ("textbox.png", "namebox.png", "button_idle.png", "button_hover.png", "choice_idle.png", "choice_hover.png", "main_land.jpg"):
         if not renpy.loadable(THEME + _p):
@@ -186,7 +187,7 @@ style tgl_main_frame:
     background tgl.frame("textbox", 50, 46, 50, 46)
 
 style tgl_main_title:
-    font tgl.SERIF_BOLD
+    font tgl.CINZEL_BOLD
     size tgl.px(92)
     color tgl.INK
     outlines []
